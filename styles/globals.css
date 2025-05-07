@@ -1,0 +1,21 @@
+/* styles/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base tweaks */
+body {
+  @apply bg-white text-black font-sans antialiased;
+    @apply font-sans;
+    
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Thumbnail scrollbar hidden (if overflowed) */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
